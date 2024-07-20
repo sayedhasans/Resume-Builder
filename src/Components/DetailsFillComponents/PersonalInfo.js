@@ -8,6 +8,7 @@ import TextArea from '../InputComponents/TextArea'
 import BottomNavigation from './BottomNavigation'
 import { updatePersonalInfo, updateErrorMessages } from '../../ReduxManager/dataStoreSlice'
 import { PhoneInput } from 'react-international-phone'
+import "react-international-phone/style.css";
 
 //this component renders Personal Info page inside the details filling page.
 function PersonalInfo(props) {
